@@ -7,7 +7,7 @@ import {
 import { AiOutlineCrown, AiFillStar } from "react-icons/ai";
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-150 md:h-180 lg:h-200 2xl:h-250  bg-cover bg-center py-10 text-white ">
+    <div className="relative w-full h-150 md:h-180 lg:h-200 2xl:h-250  bg-center py-5 text-white">
       <img
         src={heroImage}
         alt="Hero"
@@ -26,7 +26,7 @@ const HeroSection = () => {
           <AiFillStar />
           <AiFillStar />
         </div>
-        <h1 className="font-times text-[45px] md:text-[70px]  lg:text-[80px] 2xl:text-[130px] whitespace-nowrap ">
+        <h1 className="font-times text-[40px] md:text-[70px]  lg:text-[80px] 2xl:text-[130px] whitespace-nowrap  ">
           Book Your Dream Hotel <br />
           With Hoteler
         </h1>

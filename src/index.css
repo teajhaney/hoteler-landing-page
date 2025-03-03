@@ -3,6 +3,7 @@
 @theme {
   --color-primary: #ae7d54;
   --color-secondary: #121212;
+  --color-accent: #FDF5C9
   --font-helvetica: Helvetica, Arial, sans-serif;
   --font-times: "Times New Roman", Times, serif;
 }
@@ -47,4 +48,44 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 select::-webkit-select-indicator {
   display: none;
   -webkit-appearance: none;
+}
+@layer utilities {
+  .slide-hover {
+    @apply relative overflow-hidden;
+  }
+  .slide-hover::before {
+    content: "";
+    @apply absolute inset-y-0 left-0 w-full bg-primary transform -translate-x-full transition-transform duration-500 z-0;
+  }
+  .slide-hover:hover::before {
+    @apply -translate-x-0;
+  }
+
+}
+@layer utilities {
+  .slide-hover-up {
+    @apply absolute overflow-hidden bg-amber-100 ;
+  }
+  
+  .slide-hover-up::before {
+    content: "";
+    @apply absolute inset-0 left-0 w-full bg-primary transform translate-y-full transition-transform duration-500;
+  }
+
+ 
+  .group:hover .slide-hover-up::before {
+    @apply translate-y-0;
+  }
+}
+ 
+
+
+
+@layer components{
+      .bodyContent{
+    @apply mx-2 lg:mx-10  2xl:mx-auto  2xl:w-[1260px]
+  }
+  .iconImage{
+    @apply before:content-[url('https://html.kodesolution.com/2025/hoteler-html/images/icons/before.png')] before:ml-4 after:content-[url('https://html.kodesolution.com/2025/hoteler-html/images/icons/before.png')] after:mr-1
+  }
 }

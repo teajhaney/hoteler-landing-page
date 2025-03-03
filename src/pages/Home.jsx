@@ -1,10 +1,13 @@
 import React from "react";
-import {HeroSection} from "../sections/sectionImport";
+import { HeroSection , SpecialofferSection } from "../sections/exportSections";
 
 const Home = () => {
-    return <>
-        <HeroSection />
-    </>;
+  return (
+    <>
+      <HeroSection />
+      <SpecialofferSection />
+    </>
+  );
 };
 
 export default Home;
