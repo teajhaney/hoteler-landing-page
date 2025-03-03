@@ -44,14 +44,16 @@ export const hotelAttribute3 = [
   </p>,
 ];
 
-export const customerService = [
+export const customerServices = [
   {
     title: "Junior Suite",
     price: "$150/Night",
     person: "1-2 Persons",
     bedSize: "King Size Bed",
     bathtub: "Bathub",
-    wifie: "Freee Wifi",
+    wifi: "Freee Wifi",
+    image:
+      "	https://html.kodesolution.com/2025/hoteler-html/images/resource/room-service1-1.jpg",
   },
   {
     title: "Family Suite",
@@ -59,7 +61,9 @@ export const customerService = [
     person: "1-2 Persons",
     bedSize: "King Size Bed",
     bathtub: "Bathub",
-    wifie: "Freee Wifi",
+    wifi: "Freee Wifi",
+    image:
+      "	https://html.kodesolution.com/2025/hoteler-html/images/resource/room-service1-2.jpg",
   },
   {
     title: "Business Suite",
@@ -67,14 +71,16 @@ export const customerService = [
     person: "1-2 Persons",
     bedSize: "King Size Bed",
     bathtub: "Bathub",
-    wifie: "Freee Wifi",
+    wifi: "Freee Wifi",
+    image:
+      "	https://html.kodesolution.com/2025/hoteler-html/images/resource/room-service1-3.jpg",
   },
 ];
 
-export const quote = [
+export const quotes = [
   {
     quotes:
-      "Staying at Hoteler was an unforgettable experience. The staff went above and beyond to ensure our comfort and satisfaction. The room was immaculate, with breath-taking views",
+      "Staying at Hoteler was an unforgettable experience. The staff went above and beyond to ensure our comfort and satisfaction. The room was immaculate, with breath-taking ",
     name: "Jenny Wilson",
     occupation: "Business Owner",
     image:
@@ -82,7 +88,7 @@ export const quote = [
   },
   {
     quotes:
-      "Staying at Hoteler was an unforgettable experience. The staff went above and beyond to ensure our comfort and satisfaction. The room was immaculate, with breath-taking views",
+      " At Hoteler was an unforgettable experience. The staff went above and beyond to ensure our comfort and satisfaction. The room was immaculate, with breath-taking views",
     name: "Marvin mcKinney",
     occupation: "President of Sales",
     image:
@@ -90,7 +96,7 @@ export const quote = [
   },
   {
     quotes:
-      "Staying at Hoteler was an unforgettable experience. The staff went above and beyond to ensure our comfort and satisfaction. The room was immaculate, with breath-taking views",
+      "Staying at Hoteler was an unforgettable experience. The staff went above and beyond to ensure our comfort and satisfaction. The room was immaculate, with breath-taking ",
     name: "Ahmed Buhari",
     occupation: "Musician",
     image:
@@ -98,7 +104,7 @@ export const quote = [
   },
 ];
 
-export const food = [
+export const foods = [
   {
     name: "Pasta With Fish",
     description: "Lorem Ipsum is that it smt",

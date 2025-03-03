@@ -8,7 +8,7 @@ import {
 import { navLinks } from "../constant/constants";
 const NavigationComponent = () => {
   return (
-    <div className="mx-2 lg:mx-10 xl:mx-20 2xl:mx-70 flex justify-between items-center ">
+    <div className="mx-2 lg:mx-10 xl:mx-20 2xl:mx-70 flex justify-between items-center cursor-pointer">
       <div className="flex items-center gap-2">
         <AiOutlineCrown className="text-primary text-6xl" />
         <div className=" flex flex-col">
