@@ -222,3 +222,5 @@ export const news = [
       "https://html.kodesolution.com/2025/hoteler-html/images/resource/news1-3.jpg",
   },
 ];
+
+
