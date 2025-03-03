@@ -110,48 +110,64 @@ export const foods = [
     description: "Lorem Ipsum is that it smt",
     price: "$39",
     buttonLabel: "STARTER",
-  },
-  {
-    name: "Fresh Maat",
-    description: "Lorem Ipsum is that it smt",
-    price: "$39",
-    buttonLabel: "Vegan",
+    image:
+      "https://html.kodesolution.com/2025/hoteler-html/images/resource/pricing2-1.png",
   },
   {
     name: "Noodles",
     description: "Lorem Ipsum is that it smt",
-    price: "$39",
+    price: "$16",
+    buttonLabel: "Vegan",
+    image:
+      "https://html.kodesolution.com/2025/hoteler-html/images/resource/pricing2-2.png",
+  },
+  {
+    name: "Fresh Meat",
+    description: "Lorem Ipsum is that it smt",
+    price: "$29",
     buttonLabel: "New",
+    image:
+      "https://html.kodesolution.com/2025/hoteler-html/images/resource/pricing2-3.png",
   },
   {
     name: "Chicken",
     description: "Lorem Ipsum is that it smt",
-    price: "$39",
+    price: "$19",
     buttonLabel: "New",
+    image:
+      "https://html.kodesolution.com/2025/hoteler-html/images/resource/pricing2-4.png",
   },
   {
     name: "Spaghetti",
     description: "Lorem Ipsum is that it smt",
     price: "$39",
     buttonLabel: "New",
+    image:
+      "https://html.kodesolution.com/2025/hoteler-html/images/resource/pricing2-5.png",
   },
   {
     name: "Vegeteraian Fried",
     description: "Lorem Ipsum is that it smt",
-    price: "$39",
+    price: "$34",
     buttonLabel: "New",
+    image:
+      "https://html.kodesolution.com/2025/hoteler-html/images/resource/pricing2-6.png",
   },
   {
     name: "Vegeterian Soup",
     description: "Lorem Ipsum is that it smt",
-    price: "$39",
+    price: "$42",
     buttonLabel: "New",
+    image:
+      "https://html.kodesolution.com/2025/hoteler-html/images/resource/pricing2-7.png",
   },
   {
     name: "Salmon",
     description: "Lorem Ipsum is that it smt",
-    price: "$39",
+    price: "$71",
     buttonLabel: "New",
+    image:
+      "https://html.kodesolution.com/2025/hoteler-html/images/resource/pricing2-8.png",
   },
 ];
 

@@ -9,25 +9,23 @@ import {
 } from "../constant/constants";
 
 import { FaCircleCheck } from "react-icons/fa6";
+import { SectionHeading, SectionSubheading } from "../components/exportComponent";
 
 const ServiceSection = () => {
   return (
-    <div className="relative  mt-28 ">
+    <div className="relative  my-24 ">
       <img
         src={serviceBgImage}
         className="absolute bottom-0 right-0 -z-10"
         alt="service bg image"
       />
-  
+
       <div className="bodyContent   grid grid-cols-1 lg:grid-cols-2 gap-20">
         <div className="w-full  h-full flex flex-col items-start gap-5">
-          <h1 className="font-helvetica tracking-wide text-primary iconImage">
-            {" "}
-            LUXURY HOTELER{" "}
-          </h1>
-          <h2 className="font-times text-4xl lg:text-5xl font-extralight">
-            We Provide Outdoor <br /> Activities To All Visitors
-          </h2>
+          <SectionHeading title="LUXURY HOTELER" />
+          <SectionSubheading
+            title={`We Provide Outdoor \n Activities To All Visitors`}
+          />
           <h3 className="text-xl text-primary font-helvetica">
             {hotelAttribute}
           </h3>

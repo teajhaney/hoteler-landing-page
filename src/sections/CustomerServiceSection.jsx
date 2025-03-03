@@ -3,6 +3,10 @@ import { useState } from "react";
 import { customerServices, quotes } from "../constant/constants";
 import { CiFaceFrown } from "react-icons/ci";
 import { FaBed, FaBath, FaWifi } from "react-icons/fa6";
+import {
+  SectionHeading,
+  SectionSubheading,
+} from "../components/exportComponent";
 
 const CustomerServiceSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,14 +27,11 @@ const CustomerServiceSection = () => {
   return (
     <div className="bg-[#FEF3C7] py-24">
       <div className="bodyContent flex flex-col gap-5">
-        <h1 className="iconImage text-primary font-helvetica font-extralight text-center">
-          {" "}
-          CUSTOMER SERVICES{" "}
-        </h1>
-        <h1 className=" text-secondary text-[40px] font-times font-extralight text-center">
-          {" "}
-          Book your stay and relax in luxury{" "}
-        </h1>
+        <div className="flex flex-col gap-5 items-center">
+          <SectionHeading title={"CUSTOMER SERVICES"} />
+          <SectionSubheading title={"Book your stay and relax in luxury"} className={'text-center'} />
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {customerServices.map((customerService) => (
             <div
