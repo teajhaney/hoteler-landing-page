@@ -223,4 +223,21 @@ export const news = [
   },
 ];
 
-
+export const projects = [
+  {
+    title: "Projects",
+    number: 20,
+  },
+  {
+    title: "People",
+    number: 10,
+  },
+  {
+    title: "Years",
+    number: 40,
+  },
+  {
+    title: "Award Winner",
+    number: 30,
+  },
+];

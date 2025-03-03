@@ -6,3 +6,4 @@ export { default as Foodsection } from "./Foodsection";
 export { default as VideoSection } from "./VideoSection";
 export { default as MemberSection } from "./MemberSection";
 export { default as ProjectSection } from "./ProjectSection";
+export { default as ContactSection } from "./ContactSection";

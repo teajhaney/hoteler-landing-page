@@ -8,6 +8,7 @@ import {
   VideoSection,
   ProjectSection,
   MemberSection,
+  ContactSection,
 } from "../sections/exportSections";
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
       <VideoSection />
       <MemberSection />
       <ProjectSection />
+      <ContactSection />
     </>
   );
 };
