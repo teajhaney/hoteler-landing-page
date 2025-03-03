@@ -1,11 +1,18 @@
 import React from "react";
-import { HeroSection , SpecialofferSection } from "../sections/exportSections";
+import {
+  HeroSection,
+  ServiceSection,
+  SpecialofferSection,
+  CustomerServiceSection,
+} from "../sections/exportSections";
 
 const Home = () => {
   return (
     <>
       <HeroSection />
       <SpecialofferSection />
+      <ServiceSection />
+      <CustomerServiceSection />
     </>
   );
 };

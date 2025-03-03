@@ -2,7 +2,7 @@ import React from "react";
 import { specialOffer } from "../constant/constants";
 const SpecialofferSection = () => {
   return (
-    <div className="bodyContent my-56 flex flex-col gap-3">
+    <div className="bodyContent mt-56 flex flex-col gap-3">
       <div className="flex justify-center">
         <h1 className="font-helvetica tracking-wide text-primary iconImage mx-2">
           {" "}
