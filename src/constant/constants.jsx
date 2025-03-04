@@ -1,3 +1,10 @@
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa";
+
 export const heroImage =
   "https://html.kodesolution.com/2025/hoteler-html/images/banner/banner1-1.jpg";
 
@@ -240,4 +247,29 @@ export const projects = [
     title: "Award Winner",
     number: 30,
   },
+];
+
+export const socials = [
+  <FaFacebookF className="text-[#e4d6cb47] font-bold text-2xl" />,
+  <FaInstagram className="text-[#e4d6cb47] font-bold text-2xl" />,
+  <FaLinkedin className="text-[#e4d6cb47] font-bold text-2xl" />,
+  <FaWhatsapp className="text-[#e4d6cb47] font-bold text-2xl" />,
+];
+
+export const footerServices = [
+  "Store Directory",
+  "Top Hotels",
+  "Quick Links",
+  "Important Links",
+  "Insights",
+  'Knowledge Center'
+];
+
+export const companies = [
+  "Home",
+  "About Us",
+  "Services",
+  "Career",
+  "Contact",
+
 ];

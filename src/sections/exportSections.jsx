@@ -7,3 +7,5 @@ export { default as VideoSection } from "./VideoSection";
 export { default as MemberSection } from "./MemberSection";
 export { default as ProjectSection } from "./ProjectSection";
 export { default as ContactSection } from "./ContactSection";
+export { default as NewsSection } from "./NewsSection";
+export { default as FooterSection } from "./FooterSection";

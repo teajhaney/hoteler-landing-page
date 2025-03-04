@@ -3,11 +3,10 @@
 @theme {
   --color-primary: #ae7d54;
   --color-secondary: #121212;
-  --color-accent: #FEF3C7
+  ----color-tertiary:#e4d6cb47
   --font-helvetica: Helvetica, Arial, sans-serif;
   --font-times: "Times New Roman", Times, serif;
 }
-
 
 @keyframes fadeInUp {
   from {
@@ -35,7 +34,7 @@
   .animate-fadeInUp {
     animation: imgFadeInUp 1s ease-out forwards;
   }
-   .animate-ImgFadeInUp {
+  .animate-ImgFadeInUp {
     animation: imgFadeInUp 1s ease-out forwards;
   }
 }
@@ -60,24 +59,22 @@ select::-webkit-select-indicator {
   .slide-hover:hover::before {
     @apply -translate-x-0;
   }
-
 }
 @layer utilities {
   .slide-hover-up {
-    @apply absolute overflow-hidden bg-[#FEF3C7] ;
+    @apply absolute overflow-hidden bg-[#FEF3C7];
   }
-  
+
   .slide-hover-up::before {
     content: "";
     @apply absolute inset-0 left-0 w-full bg-primary transform translate-y-full transition-transform duration-500;
   }
 
- 
   .group:hover .slide-hover-up::before {
     @apply translate-y-0;
   }
 
-   .discover-slide-hover {
+  .discover-slide-hover {
     @apply relative overflow-hidden;
   }
   .discover-slide-hover::before {
@@ -87,23 +84,29 @@ select::-webkit-select-indicator {
   .discover-slide-hover:hover::before {
     @apply -translate-x-0;
   }
-  .centerAbsolute{
-    @apply top-1/2 left-1/2 bottom-1/2 right-1/2 transform -translate-x-1/2 -translate-y-1/2
+  .checkAvailability-slide-hover {
+    @apply relative overflow-hidden;
   }
-
+  .checkAvailability-slide-hover::before {
+    content: "";
+    @apply absolute inset-y-0 left-0 w-full bg-primary transform -translate-x-full transition-transform duration-500 z-0;
+  }
+  .checkAvailability-slide-hover:hover::before {
+    @apply -translate-x-0;
+  }
+  .centerAbsolute {
+    @apply top-1/2 left-1/2 bottom-1/2 right-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
 }
- 
 
-
-
-@layer components{
-      .bodyContent{
-    @apply mx-2 lg:mx-10  2xl:mx-auto  2xl:w-[1260px]
+@layer components {
+  .bodyContent {
+    @apply mx-2 lg:mx-10  2xl:mx-auto  2xl:w-[1260px];
   }
-  .iconImage{
-    @apply before:content-[url('https://html.kodesolution.com/2025/hoteler-html/images/icons/before.png')] before:ml-4 after:content-[url('https://html.kodesolution.com/2025/hoteler-html/images/icons/before.png')] after:mr-1
+  .iconImage {
+    @apply before:content-[url('https://html.kodesolution.com/2025/hoteler-html/images/icons/before.png')] before:ml-4 after:content-[url('https://html.kodesolution.com/2025/hoteler-html/images/icons/before.png')] after:mr-1;
   }
-   .iconImage2{
-    @apply before:content-[url('https://html.kodesolution.com/2025/hoteler-html/images/icons/before.png')] before:ml-4
+  .iconImage2 {
+    @apply before:content-[url('https://html.kodesolution.com/2025/hoteler-html/images/icons/before.png')] before:ml-4;
   }
 }
