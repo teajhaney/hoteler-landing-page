@@ -12,10 +12,11 @@ import {
   NewsSection,
   FooterSection,
 } from "../sections/exportSections";
-
+import {ScrollToTop, VisibleOnScrollNavbar} from'../components/exportComponent'
 const Home = () => {
   return (
-    <>
+    <div className="relative">
+      <VisibleOnScrollNavbar/>
       <HeroSection />
       <SpecialofferSection />
       <ServiceSection />
@@ -26,8 +27,9 @@ const Home = () => {
       <ProjectSection />
       <ContactSection />
       <NewsSection />
-      <FooterSection/>
-    </>
+      <FooterSection />
+      <ScrollToTop/>
+    </div>
   );
 };
 

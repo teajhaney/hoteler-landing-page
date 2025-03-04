@@ -21,8 +21,8 @@ const NavigationComponent = () => {
 
       <div className="hidden lg:flex">
         <ul className="flex justify-between">
-          {navLinks.map((navlink) => (
-            <li key={navlink} className="text-sm font-helvetica text-white mx-2 hover:text-primary hover:decoration-primary">
+          {navLinks.map((navlink,index) => (
+            <li key={index} className="text-sm font-helvetica text-white mx-2 hover:text-primary hover:underline hover:decoration-primary">
               {navlink}
             </li>
           ))}

@@ -10,7 +10,7 @@ import {
 } from "../constant/constants.jsx";
 const FooterSection = () => {
   return (
-    <footer className="pt-24 pb-10 flex flex-col bg-secondary text-white">
+    <footer className="pt-24 pb-10 flex flex-col  bg-secondary text-white">
       <div className="bodyContent mb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10  lg:gap-5 ">
         {/* first grid */}
         <div className="flex flex-col  gap-5">
@@ -99,7 +99,7 @@ const FooterSection = () => {
         </div>
       </div>
       <hr className="border-[#e4d6cb47] border-0.1" />
-      <div className="flex justify-center items-center gap-1">
+      <div className="flex justify-center items-center gap-1 my-5">
         <AiOutlineCopyrightCircle />
         <h1 className="text-xl font-helveica">
           <span className="font-extralight text-[#e4d6cb47]">2025 </span>

@@ -59,45 +59,6 @@ select::-webkit-select-indicator {
   .slide-hover:hover::before {
     @apply translate-x-0;
   }
-
-  //slide up
-  .slide-hover-up {
-    @apply absolute overflow-hidden 
-  }
-
-  .slide-hover-up::before {
-    content: "";
-    @apply absolute inset-x-0 left-0 bottom-0 w-full bg-primary transform -translate-y-full transition-transform duration-500 z-0;
-   
-  }
-
-  .group:hover .slide-hover-up::before {
-    @apply translate-y-0;
-  }
-//dicover slide up
-  .discover-slide-hover {
-    @apply relative overflow-hidden;
-  }
-  .discover-slide-hover::before {
-    content: "";
-    @apply absolute  left-0 w-full bg-secondary transform -translate-x-full transition-transform duration-500 z-0;
-  }
-  .discover-slide-hover:hover::before {
-    @apply translate-x-0;
-  }
-  //checl slide up
-  .checkAvailability-slide-hover {
-    @apply relative overflow-hidden;
-  }
-  .checkAvailability-slide-hover::before {
-    content: "";
-    @apply absolute inset-y-0 left-0 w-full bg-primary transform -translate-x-full transition-transform duration-500 z-0;
-  }
-  .checkAvailability-slide-hover:hover::before {
-    @apply -translate-x-0;
-  }
-
-  //underline slide
   
   .centerAbsolute {
     @apply top-1/2 left-1/2 bottom-1/2 right-1/2 transform -translate-x-1/2 -translate-y-1/2;
