@@ -7,7 +7,7 @@ import { members } from "../constant/constants";
 
 const MemberSection = () => {
   return (
-    <div className="py-24">
+    <section className="py-24">
       <div className="bodyContent flex flex-col gap-10">
         <div className="flex flex-col gap-5 items-center">
           <SectionHeading title={"TEAM MEMBER"} />
@@ -41,7 +41,7 @@ const MemberSection = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -13,7 +13,7 @@ import { SectionHeading, SectionSubheading } from "../components/exportComponent
 
 const ServiceSection = () => {
   return (
-    <div className="relative  my-24 ">
+    <section className="relative  my-24 ">
       <img
         src={serviceBgImage}
         className="absolute bottom-0 right-0 -z-10"
@@ -39,7 +39,7 @@ const ServiceSection = () => {
           ))}
           <div className="flex flex-col gap-3">
             {hotelAttribute2.map((attribute) => (
-              <div className="flex gap-5 ">
+              <div key={hotelAttribute2.attribute} className="flex gap-5 ">
                 <FaCircleCheck className="text-primary" />
                 <p className="text-wrap font-helvetica font-extralight ">
                   {attribute}
@@ -47,7 +47,7 @@ const ServiceSection = () => {
               </div>
             ))}
           </div>
-          <div className="discover-slide-hover bg-primary h-16 w-60 flex justify-center items-center text-white">
+          <div className="relative bg-primary h-16 w-60 flex justify-center items-center text-white hover:bg-secondary transition-colors duration-500 ease-in-out">
             <h1 className="z-100 font-helvetica font-extralight text-xl ">
               DISCOVER MORE
             </h1>
@@ -74,7 +74,7 @@ const ServiceSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

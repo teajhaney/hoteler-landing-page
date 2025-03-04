@@ -4,7 +4,7 @@ import { foods } from '../constant/constants';
 
 const Foodsection = () => {
   return (
-    <div className="py-20">
+    <section className="py-20">
       <div className="bodyContent flex flex-col gap-10">
         <div className="flex flex-col gap-5 items-center">
           <SectionHeading title={"HOTELER BEST MENU"} />
@@ -36,7 +36,7 @@ const Foodsection = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

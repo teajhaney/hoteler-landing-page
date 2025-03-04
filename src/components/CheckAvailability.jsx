@@ -81,7 +81,7 @@ const CheckAvailability = () => {
           </div>
         </div>
         <div className="slide-hover max-md:h-20 h-30  col-span-3 lg:col-span-2  bg-secondary text-xl text-center flex items-center justify-center hover:text-white">
-          <h1 className="relative z-10 text-white  transition-colors duration-300 ">
+          <h1 className="relative z-10 text-white  ">
             CHECK <br /> AVAILABILITY
           </h1>
         </div>

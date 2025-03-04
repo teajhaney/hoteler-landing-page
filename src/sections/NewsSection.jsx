@@ -8,7 +8,7 @@ import { CiFaceFrown } from "react-icons/ci";
 import { FaBed, FaBath, FaWifi } from "react-icons/fa6";
 const NewsSection = () => {
   return (
-    <div className="bodyContent py-24 flex flex-col gap-5">
+    <section className="bodyContent py-24 flex flex-col gap-5">
       <div className="flex flex-col gap-5 items-center">
         <SectionHeading title={"NEWS & BLOG"} />
         <SectionSubheading
@@ -34,7 +34,7 @@ const NewsSection = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

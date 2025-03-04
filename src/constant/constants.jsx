@@ -250,10 +250,10 @@ export const projects = [
 ];
 
 export const socials = [
-  <FaFacebookF className="text-[#e4d6cb47] font-bold text-2xl" />,
-  <FaInstagram className="text-[#e4d6cb47] font-bold text-2xl" />,
-  <FaLinkedin className="text-[#e4d6cb47] font-bold text-2xl" />,
-  <FaWhatsapp className="text-[#e4d6cb47] font-bold text-2xl" />,
+  <FaFacebookF className="text-[#e4d6cb47] font-bold text-2xl cursor-pointer" />,
+  <FaInstagram className="text-[#e4d6cb47] font-bold text-2xl cursor-pointer" />,
+  <FaLinkedin className="text-[#e4d6cb47] font-bold text-2xl cursor-pointer" />,
+  <FaWhatsapp className="text-[#e4d6cb47] font-bold text-2xl cursor-pointer" />,
 ];
 
 export const footerServices = [
@@ -262,14 +262,19 @@ export const footerServices = [
   "Quick Links",
   "Important Links",
   "Insights",
-  'Knowledge Center'
+  "Knowledge Center",
 ];
 
-export const companies = [
-  "Home",
-  "About Us",
-  "Services",
-  "Career",
-  "Contact",
+export const companies = ["Home", "About Us", "Services", "Career", "Contact"];
 
+export const newYorkContacts = [
+  "2464 Royal Ln. Mesa, New Jersey 45463",
+  "(000) 222-0000",
+  "info@yourwebsite.com",
+];
+
+export const londonContacts = [
+  "1901 Thorn ridge Cir. Shiloh, Hawaii 81063",
+  "(000) 222-0000",
+  "info@yourwebsite.com",
 ];

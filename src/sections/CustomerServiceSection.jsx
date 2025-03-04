@@ -25,7 +25,7 @@ const CustomerServiceSection = () => {
     );
   };
   return (
-    <div className="bg-[#FEF3C7] py-24">
+    <section className="bg-[#FEF3C7] py-24">
       <div className="bodyContent flex flex-col gap-5">
         <div className="flex flex-col gap-5 items-center">
           <SectionHeading title={"CUSTOMER SERVICES"} />
@@ -126,7 +126,7 @@ const CustomerServiceSection = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

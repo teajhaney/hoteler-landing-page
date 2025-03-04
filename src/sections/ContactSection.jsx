@@ -6,7 +6,7 @@ import {
 
 const ContactSection = () => {
   return (
-    <div className="bodyContent py-16">
+    <section className="bodyContent py-16">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="lg:order-2 lg:flex-2 shadow-[10px_10px_100px_20px_rgba(0,0,0,0.1)] p-10 flex flex-col gap-5">
           <SectionHeading title={"CONTACT US"} />
@@ -47,8 +47,8 @@ const ContactSection = () => {
             id="message"
             placeholder="Write a Message"
             alt="write your message"></textarea>
-          <div className="checkAvailability-slide-hover bg-secondary h-16 flex justify-center items-center text-white">
-            <h1 className="z-100 font-helvetica font-extralight text-xl ">
+          <div className=" bg-secondary h-16 flex justify-center items-center text-white hover:bg-primary transition-colors duration-500 ease-in-out">
+            <h1 className="z-100 font-helvetica font-extralight text-xl  ">
               CHECK AVAILABILITY
             </h1>
           </div>
@@ -71,7 +71,7 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

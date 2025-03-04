@@ -7,7 +7,7 @@ import {
 import { AiOutlineCrown, AiFillStar } from "react-icons/ai";
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-150 md:h-180 lg:h-200 2xl:h-250  bg-center py-5 text-white">
+    <section className="relative w-full h-150 md:h-180 lg:h-200 2xl:h-250  bg-center py-5 text-white">
       <img
         src={heroImage}
         alt="Hero"
@@ -32,7 +32,7 @@ const HeroSection = () => {
         </h1>
       </div>
       <CheckAvailability />
-    </div>
+    </section>
   );
 };
 
