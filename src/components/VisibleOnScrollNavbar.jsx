@@ -23,7 +23,7 @@ const VisibleOnScrollNavbar = () => {
 
   return (
     <div
-      className={` fixed -top-25  w-full bg-white shadow-md translate-y-full transition-transform ease-in duration-500 z-200 ${
+      className={` fixed -top-25 w-full  bg-white shadow-md translate-y-full transition-transform ease-in duration-500 z-200 ${
         isVisible ? "translate-y-0" : "translate-y-full hidden"
       }`}>
       <div className="bodyContent flex justify-between items-center py-4 cursor-pointe">

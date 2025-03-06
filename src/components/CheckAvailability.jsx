@@ -20,7 +20,7 @@ const CheckAvailability = () => {
   };
   return (
     <div className="mx-2">
-      <div className="absolute -bottom-[160px] lg:-bottom-[64px] left-1/2 right-1/2 -translate-x-1/2 w-[400px] md:w-[700px] lg:w-[1000px] 2xl:w-[1260px] bg-white grid grid-cols-3 lg:grid-cols-11 shadow-[10px_10px_10px_10px_rgba(0,0,0,0.1)]">
+      <div className="absolute -bottom-[160px] lg:-bottom-[64px] left-1/2 right-1/2 -translate-x-1/2 w-[340px] md:w-[700px] lg:w-[1000px] 2xl:w-[1260px] bg-white grid grid-cols-3 lg:grid-cols-11 shadow-[10px_10px_10px_10px_rgba(0,0,0,0.1)]">
         <div className=" h-24 lg:h-30 transform ease-out duration-1000 col-span-1 lg:col-span-3 flex items-center justify-center">
           <div className="flex flex-col justify-center  gap-2 lg:ml-10">
             <h1 className="text-xl lg:text-2xl font-times font-extralight text-secondary">

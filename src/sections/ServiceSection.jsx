@@ -54,7 +54,7 @@ const ServiceSection = () => {
           </div>
         </div>
         {/* overlapping image */}
-        <div className=" relative  h-150 lg:h-full max-md:w-[400px] max-lg:w-[600px]">
+        <div className=" relative  h-150 lg:h-full max-md:w-[350px] max-lg:w-[600px]">
           <div className="centerAbsolute absolute h-96 w-96 border-1 border-primary"></div>
           <div className="border-gray-200 border-8  absolute  h-96 w-80 left:0 top-0 lg:top-0 lg:right-0 transform duration-1000 ease-in-out">
             {" "}

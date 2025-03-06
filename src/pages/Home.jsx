@@ -15,8 +15,9 @@ import {
 import {ScrollToTop, VisibleOnScrollNavbar} from'../components/exportComponent'
 const Home = () => {
   return (
-    <div className="relative">
-      <VisibleOnScrollNavbar/>
+    <div className="relative max-w-screen overflow-hidden
+      ">
+      <VisibleOnScrollNavbar />
       <HeroSection />
       <SpecialofferSection />
       <ServiceSection />
@@ -28,7 +29,7 @@ const Home = () => {
       <ContactSection />
       <NewsSection />
       <FooterSection />
-      <ScrollToTop/>
+      <ScrollToTop />
     </div>
   );
 };

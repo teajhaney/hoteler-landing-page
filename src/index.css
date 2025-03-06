@@ -68,7 +68,7 @@ select::-webkit-select-indicator {
 
 @layer components {
   .bodyContent {
-    @apply mx-2 lg:mx-10  2xl:mx-auto  2xl:w-[1260px];
+    @apply mx-3 lg:mx-10  2xl:mx-auto  2xl:w-[1260px];
   }
   .iconImage {
     @apply before:content-[url('https://html.kodesolution.com/2025/hoteler-html/images/icons/before.png')] before:ml-4 after:content-[url('https://html.kodesolution.com/2025/hoteler-html/images/icons/before.png')] after:mr-1;
